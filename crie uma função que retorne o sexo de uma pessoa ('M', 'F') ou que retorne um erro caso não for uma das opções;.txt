@@ -1,0 +1,39 @@
+public class Calcular {
+	
+	private void syso() {
+		// TODO Auto-generated method stub
+
+		Scanner leia = new Scanner (System.in);
+		final var ponto = new locale ("en" , "us" );
+		
+		char sexo;
+		
+System.out.println("Entre com o sexo ");
+sexo = leia.next().charAt(0};
+
+
+leia.close();
+
+}
+
+
+static String masculinooufeminino(char p ) {
+	
+	if((p =='m')|| (p =='M')){
+		
+		return " A opcao de sexo;" + p + "Esta correto";
+
+	} else { 
+		
+		return " a opcao de sexo esta correta ";
+		
+		
+		
+	}
+		
+		
+		
+	}
+	
+
+}
